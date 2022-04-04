@@ -10,7 +10,7 @@ plt.title('My Very Own Histogram')
 plt.text(23, 45, r'$\mu=15, b=3$')
 maxfreq = n.max()
 # Set a clean upper y-axis limit.
-plt.ylim(ymax=np.ceil(maxfreq / 10) * 10 if maxfreq % 10 else maxfreq + 10)
+plt.ylim(ymax=np.ceil(maxfreq / 10) * 10 if maxfreq % 10 else maxfreq + 10)    
 
 
 
